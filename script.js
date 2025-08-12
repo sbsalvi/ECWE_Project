@@ -3,50 +3,162 @@ const products = [
     {
         id: 1,
         title: "Wireless Headphones",
-        price: 99.99,
-        image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        price: 89.99,
+        image: "images/Wireless Headphones.jpg",
+        category: "Electronics",
+        rating: 4.5
     },
     {
         id: 2,
-        title: "Smart Watch",
+        title: "Smart Fitness Watch",
         price: 199.99,
-        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        image: "images/Smart Watch.jpg",
+        category: "Electronics",
+        rating: 4.2
     },
     {
         id: 3,
-        title: "Bluetooth Speaker",
-        price: 79.99,
-        image: "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        title: "Portable Bluetooth Speaker",
+        price: 59.99,
+        image: "images/bluetooth speaker.webp",
+        category: "Electronics",
+        rating: 4.0
     },
     {
         id: 4,
         title: "Laptop Backpack",
         price: 49.99,
-        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        image: "images/Laptop-Backpack.webp",
+        category: "Accessories",
+        rating: 4.7
     },
     {
         id: 5,
-        title: "Wireless Mouse",
-        price: 29.99,
-        image: "https://images.unsplash.com/photo-1527814050087-3793815479db?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        title: "Wireless Gaming Mouse",
+        price: 39.99,
+        image: "images/Wireless Mouse.webp",
+        category: "Electronics",
+        rating: 4.3
     },
     {
         id: 6,
         title: "Mechanical Keyboard",
-        price: 89.99,
-        image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        price: 79.99,
+        image: "images/Mechanical Keyboard.webp",
+        category: "Electronics",
+        rating: 4.8
     },
     {
         id: 7,
-        title: "External Hard Drive",
-        price: 119.99,
-        image: "https://images.unsplash.com/photo-1581349485608-9469926a8e5e?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        title: "1TB External SSD",
+        price: 129.99,
+        image: "images/1TB External SSD.jpg",
+        category: "Electronics",
+        rating: 4.6
     },
     {
         id: 8,
-        title: "Fitness Tracker",
+        title: "Fitness Activity Tracker",
         price: 59.99,
-        image: "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+        image: "images/Fitness Activity Tracker.jpg",
+        category: "Electronics",
+        rating: 4.1
+    },
+    {
+        id: 9,
+        title: "Cotton T-Shirt",
+        price: 19.99,
+        image: "images/Cotton T-Shirt.webp",
+        category: "Clothing",
+        rating: 4.4
+    },
+    {
+        id: 10,
+        title: "Denim Jeans",
+        price: 49.99,
+        image: "images/Denim Jeans.jpg",
+        category: "Clothing",
+        rating: 4.3
+    },
+    {
+        id: 11,
+        title: "Running Shoes",
+        price: 79.99,
+        image: "images/Running Shoes.webp",
+        category: "Footwear",
+        rating: 4.7
+    },
+    {
+        id: 12,
+        title: "Stainless Steel Water Bottle",
+        price: 24.99,
+        image: "images/Stainless Steel Water Bottle.jpg",
+        category: "Accessories",
+        rating: 4.5
+    },
+    {
+        id: 13,
+        title: "Non-Stick Cooking Set",
+        price: 149.99,
+        image: "images/Non-Stick Cooking Set.avif",
+        category: "Home & Kitchen",
+        rating: 4.9
+    },
+    {
+        id: 14,
+        title: "Smart LED TV 55\"",
+        price: 599.99,
+        image: "images/Smart LED TV.jpg",
+        category: "Electronics",
+        rating: 4.8
+    },
+    {
+        id: 15,
+        title: "Wireless Earbuds",
+        price: 79.99,
+        image: "images/Wireless Earbuds.webp",
+        category: "Electronics",
+        rating: 4.2
+    },
+    {
+        id: 16,
+        title: "Yoga Mat",
+        price: 29.99,
+        image: "images/Yoga Mat.jpg",
+        category: "Sports",
+        rating: 4.6
+    },
+    {
+        id: 17,
+        title: "Digital SLR Camera",
+        price: 499.99,
+        image: "images/Digital SLR Camera.jpg",
+        category: "Electronics",
+        rating: 4.7
+    },
+    {
+        id: 18,
+        title: "Air Fryer",
+        price: 89.99,
+        image: "images/Air Fryer.png",
+        category: "Home & Kitchen",
+        rating: 4.4
+    },
+    {
+        id: 19,
+        title: "Blender",
+        price: 49.99,
+        image: "images/Blender.jpg",
+        category: "Home & Kitchen",
+        rating: 4.3
+    },
+    {
+        id: 20,
+        title: "Coffee Maker",
+        price: 69.99,
+        image: "images/Coffee-Maker.jpg",
+        category: "Home & Kitchen",
+        rating: 4.5
     }
 ];
 
